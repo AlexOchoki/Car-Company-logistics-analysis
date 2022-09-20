@@ -2,10 +2,13 @@
 ### by
 ## Alex Mogengo
 
-# ABOUT THE PROJECT
+# Project Overview
 This project is an analysis of the car fleet of a logistics company as the top management seeks to have a deeper understanding of the fleet mainly by valuation at various instances.
 
-# PROJECT PREVIEW
+# About the dataset
+The raw data used for this analysis consists of columns that have the car names, present year valuation, kilometres driven, fuel type it uses, seller type, type of transmission and the selling price. This information forms the basis for analysis.
+
+# Aims and research questions
 THe aim of this project is to analyse the car company to develop insights on a number of business questions that the top management seeks to understand in order to make critical decisions. They include:
 * The total number of cars in its collection
 * The number of cars belonging to a particular type
@@ -25,24 +28,25 @@ THe aim of this project is to analyse the car company to develop insights on a n
 * The profit/loss incurred overtime
 * The the present price and selling price progressed over time.
 
-# PREREQUISITES
+# Prerequisites
 The following ope source packages were used during the preparation of this analysis:
 * Pandas
 * Numpy
 * Matplotlib
 * Seaborn
 
-# ABOUT THE DATASET
-The raw data used for this analysis consists of columns that have the car names, present year valuation, kilometres driven, fuel type it uses, seller type, type of transmission and the selling price. This information forms the basis for analysis.
-
-# DATA EXPLORATION
+# Data exploration
 The data was explored by:
 * Using the boxplot to check for the data distribution
 * Investigating the data types in the various columns
 * Checking for null values
 * Checking for duplicates
 
-## Data cleaning
-To prepare the data for analysis, the following steps were taken:
-* Removed all the duplicated rows
 
+# Summary
+- There were 98 different vehicle types, manufactured in 16 different years, 3 fuel types  were utilized, and two transimission types (manual and automatic).
+- The present value of the car fleet owned by the company is 971.6 million dollars.
+- The total selling price of the cars in the company's is fleet is just over 906 million.
+- The company will make a loss of over 65million incase all the cars were sold now.
+- The most expensive car by present price is Fortuner 2017 model
+- The least expensive car by present price is 800 2003 model
